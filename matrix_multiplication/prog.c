@@ -57,7 +57,7 @@ int main ( int argc, char *argv[])
 	A = (int**)malloc( sizeof(int* )*div_size );
 	b = (int*) malloc ( sizeof(int)*n );
 	x = (int*) malloc ( sizeof(int)*m*2 );
-	buf = (int*) malloc(2*n*n*sizeof(int));
+	buf = (int*) malloc(3*n*n*sizeof(int));
 	for( i  = 0 ;i<m;i++ )
 		A[i] = buf+(n*i);
 
